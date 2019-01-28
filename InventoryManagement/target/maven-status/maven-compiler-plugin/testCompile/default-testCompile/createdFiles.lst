@@ -1,0 +1,4 @@
+com\dao\InventoryDAOTest.class
+com\data\TestData.class
+com\service\InventroyServiceTest.class
+com\utility\UtilTest.class

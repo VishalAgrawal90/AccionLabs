@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd"> -->
+<!--<!DOCTYPE properties SYSTEM "properties.dtd"> -->
+
+<!--This is a temporary DOCTYPE declaration till the URI issue of DTD is 
+	resolved -->
+<!DOCTYPE properties [
+        <!ELEMENT properties ( comment?, entry* ) >
+        <!ATTLIST properties version CDATA #FIXED "1.0">
+        <!ELEMENT comment (#PCDATA) >
+        <!ELEMENT entry (#PCDATA) >
+        <!ATTLIST entry key CDATA #REQUIRED>
+        ]>
+
+<properties>
+
+	<comment>Inventory Queries</comment>
+	<!-- Preference Query -->
+	<entry key="selectAllVehicleQuery">
+		SELECT * FROM VEHICLE
+	</entry>
+	<entry key="insertVehicleQuery">
+		INSERT INTO VEHICLE (brand, model,price,color,vehicleType,description) VALUES (?, ?, ?, ?, ?, ?)
+	</entry>
+	<entry key="deleteRecentVehilceQuery">
+		DELETE FROM VEHICLE WHERE ID = SELECT MAX(id) FROM VEHICLE
+	</entry>
+	<entry key="deleteVehicleByIdQuery">
+		DELETE FROM VEHICLE WHERE ID = ?
+	</entry>
+	<entry key="searchVehicleByIdQuery">
+		SELECT * FROM VEHICLE WHERE ID = ?
+	</entry>
+	
+
+
+
+</properties>
