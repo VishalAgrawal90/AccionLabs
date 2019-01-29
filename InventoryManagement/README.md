@@ -15,8 +15,7 @@
 		"vehicleType": "Car",
 		"description": "Aston Martin V8 Vantage"
 	}
-	Headers:
-	Content-type: application/json
+	Headers:Content-type: application/json
 	Accept: application/json
 	Http Status: 201 Created
 	Response:
@@ -41,8 +40,7 @@
 		"vehicleType": "Car",
 		"description": "Aston Martin V8 Vantage"
 	}
-	Headers:
-	Content-type: application/json
+	Headers:Content-type: application/json
 	Accept: application/json
 	Http Status: 200 OK
 	Response:
@@ -57,8 +55,7 @@
 	URL:http://localhost:8080/InventoryManagement/vehicles
 	Request Method: DELETE
 	Request Body: none
-	Headers:
-	Content-type: application/json
+	Headers:Content-type: application/json
 	Accept: application/json
 	Http Status: 200 OK
 	Response:
@@ -73,8 +70,7 @@
 	Expexted: http://localhost:8080/InventoryManagement/vehicles/1
 	Request Method: DELETE
 	Request Body: none
-	Headers:
-	Content-type: application/json
+	Headers:Content-type: application/json
 	Accept: application/json
 	Http Status: 200 OK
 	Response:
@@ -88,8 +84,7 @@
 	URL:http://localhost:8080/InventoryManagement/vehicles/
 	Request Method: GET
 	Request Body: none
-	Headers:
-	Content-type: application/json
+	Headers:Content-type: application/json
 	Accept: application/json
 	Http Status: 200 OK
 
@@ -121,8 +116,7 @@
 	Expexted: http://localhost:8080/InventoryManagement/vehicles/3
 	Request Method: GET
 	Request Body: none
-	Headers:
-	Content-type: application/json
+	Headers:Content-type: application/json
 	Accept: application/json
 	Http Status: 200 OK
 	Response:
@@ -141,11 +135,10 @@
 	7.To search an existing vehicle with vehicle properties:-
  
 	URL:http://localhost:8080/InventoryManagement/vehicles/search/{Id}&{model}&{brand}&{price}&{color}&{vehicleType}&{description}
-	Expexted:http://localhost:8080/InventoryManagement/vehicles/search?brand=Aston 	Martin&model=V8&price=$1894603&color=black&vehicleType=Car&description=Aston Martin V8 Vantage
+	Expexted:http://localhost:8080/InventoryManagement/vehicles/search?brand=Aston Martin&model=V8&price=$1894603&color=black&vehicleType=Car&description=Aston Martin V8 Vantage
 	Request Method: GET
 	Request Body: none
-	Headers:
-	Content-type: application/json
+	Headers:Content-type: application/json
 	Accept: application/json
 	Http Status: 200 OK
 	Response:
