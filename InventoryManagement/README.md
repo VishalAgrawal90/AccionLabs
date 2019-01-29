@@ -118,7 +118,7 @@
 	6.To search an existing vehicle by vehicle id:-
  
 	URL:http://localhost:8080/InventoryManagement/vehicles/{vehicleId}
-		Expexted: http://localhost:8080/InventoryManagement/vehicles/3
+	Expexted: http://localhost:8080/InventoryManagement/vehicles/3
 	Request Method: GET
 	Request Body: none
 	Headers:
@@ -141,7 +141,7 @@
 	7.To search an existing vehicle with vehicle properties:-
  
 	URL:http://localhost:8080/InventoryManagement/vehicles/search/{Id}&{model}&{brand}&{price}&{color}&{vehicleType}&{description}
-	Expexted:http://localhost:8080/InventoryManagement/vehicles/search?brand=Aston Martin&model=V8&price=$1894603&color=black&vehicleType=Car&description=Aston Martin V8 Vantage
+	Expexted:http://localhost:8080/InventoryManagement/vehicles/search?brand=Aston 	Martin&model=V8&price=$1894603&color=black&vehicleType=Car&description=Aston Martin V8 Vantage
 	Request Method: GET
 	Request Body: none
 	Headers:
