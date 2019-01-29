@@ -54,7 +54,7 @@ Response:
 
 3.To delete last added Vehicle:-
  
-URL:http://localhost:8080/InventoryManagement/vehicles/delete/recent
+URL:http://localhost:8080/InventoryManagement/vehicles
 Request Method: DELETE
 Request Body: none
 Headers:
@@ -69,8 +69,8 @@ Response:
 
 4.To delete an existing Vehicle:-
  
-URL:http://localhost:8080/InventoryManagement/vehicles/delete/{vehicleId}
-Expexted: http://localhost:8080/InventoryManagement/vehicles/delete/1
+URL:http://localhost:8080/InventoryManagement/vehicles/{vehicleId}
+Expexted: http://localhost:8080/InventoryManagement/vehicles/1
 Request Method: DELETE
 Request Body: none
 Headers:
